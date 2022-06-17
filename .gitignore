@@ -35,3 +35,9 @@ out/
 
 ### VS Code ###
 .vscode/
+
+## Log ###
+*.gz
+
+## QClass ###
+**/src/main/querydsl
