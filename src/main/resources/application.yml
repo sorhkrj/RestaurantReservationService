@@ -1,0 +1,28 @@
+spring:
+  main:
+    web-application-type: servlet
+    banner-mode: off
+  datasource:
+      driver-class-name: oracle.jdbc.OracleDriver
+      url: jdbc:oracle:thin:@3.39.213.54:1521:xe
+      username: RRS
+      password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+    database-platform: org.hibernate.dialect.Oracle10gDialect
+    open-in-view: false
+  thymeleaf:
+    cache: false
+
+server:
+  port: 8080
+
+logging:
+  file:
+    path: src/main/resources/logback.log
+  level:
+    '[org.rrs]': warn
+    '[org.hibernate]': info
