@@ -1,4 +1,4 @@
-package org.rrs.member.respository;
+package org.rrs.member.persistence;
 
 import org.rrs.domain.Member;
 import org.springframework.data.jpa.repository.JpaRepository;

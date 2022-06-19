@@ -4,7 +4,7 @@ import java.util.Optional;
 
 import org.rrs.config.SecurityUser;
 import org.rrs.domain.Member;
-import org.rrs.member.respository.MemberRepository;
+import org.rrs.member.persistence.MemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

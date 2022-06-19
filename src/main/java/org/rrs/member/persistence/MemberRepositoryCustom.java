@@ -1,4 +1,4 @@
-package org.rrs.member.respository;
+package org.rrs.member.persistence;
 
 public interface MemberRepositoryCustom {
 	
