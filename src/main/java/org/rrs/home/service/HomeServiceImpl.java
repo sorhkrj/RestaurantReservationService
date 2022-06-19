@@ -1,6 +1,6 @@
 package org.rrs.home.service;
 
-import org.rrs.respository.MemberRepository;
+import org.rrs.member.respository.MemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
