@@ -38,6 +38,4 @@ out/
 
 ## Log ###
 *.log
-
-## QClass ###
-**/src/main/querydsl
+*.gz
